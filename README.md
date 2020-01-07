@@ -17,10 +17,10 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 - [ ] Submit your website using the link on the Agenda
 
 ### HTML/JavaScript
-- [ ] Create a div to display your songs
-- [ ] Create an array to store your song names
-- [ ] Create a loop to display your song names
-- [ ] Repeat these steps for song artist, song length, image, and link
+- [x] Create a div to display your songs
+- [x] Create an array to store your song names
+- [x] Create a loop to display your song names
+- [x] Repeat these steps for song artist, song length, image, and link
 
 #### Wrap
 - [ ] Push your changes!
