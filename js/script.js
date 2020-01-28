@@ -1,8 +1,8 @@
 let songName = [" "];
 let songArtist = [" "];
 let songLength = [" "];
-let image = [" "];
-let link = [" "];
+let songImage = [" "];
+let songLink = [" "];
 
 $(".button").click(function(){
     let newSong = $(".songNames").val();
@@ -18,17 +18,20 @@ $(".button").click(function(){
     songArtist.forEach(function(artist){
         $(".songArtist").append(artist + " ")
     });
-    let newList = $(".songLists").val();
-    songList.push(newList);
-    songList.forEach(function(length){
+    let newLength = $(".songLengths").val();
+    songLength.push(newLength);
+    songLength.forEach(function(length){
         $(".songLength").append(length + " ")
     });
 
-    image.forEach(function(imagee){
-        $(".image").append(`<img src = " ${imagee} ">`)
+    let newImage = $(".songImages").val();
+    songImage.push(newImage);
+    songImage.forEach(function(image){
+        $(".songImage").append(image + " ")
     });
-
-    link.forEach(function(linkk){
-        $(".link").wrap(`<a href= " ${linkk} "> Link </a>`);
+    let newLink = $(".songLinks").val();
+    songLink.push(newLink);
+    songLink.forEach(function(link){
+        $(".songLink").append(`<a href= " ${link} "> Link </a>`);
     });
 });
