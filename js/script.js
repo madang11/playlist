@@ -1,4 +1,10 @@
-let songName = [" "];
+let song = {
+    name: "roxanne"
+    
+}
+
+
+/*let songName = [" "];
 let songArtist = [" "];
 let songLength = [" "];
 let songImage = [" "];
